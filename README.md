@@ -1,2 +1,2 @@
 # simple-sorting
-A demonstration of bubble and selection sort.
+A demonstration of simple searching and sorting, using linear search, bubble sort, and selection sort.
