@@ -44,8 +44,8 @@ void printArray(const int *arr, const int SIZE){
     cout << endl << endl;
 }
 
-
 void swap(int *n1, int *n2) {
+
     /* **********************************
      * swaps two integers
      *
@@ -184,8 +184,8 @@ void bubbleSort(int *array, const int size) {
      * @exception na : na
      * @note na
      * **********************************/
-    bool swapped = true;
-    for (int i = 0; i < size - 1 && swapped; i++) {
+    bool swapped = true; // priming read
+    for (int i = 0; i < size - 1 && swapped; i++) { // passes
         swapped = false;
         for (int j = 0; j < size - i - 1; j++) {
             if (array[j] > array[j + 1]) {
