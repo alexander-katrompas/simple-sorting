@@ -1,8 +1,13 @@
+/* *************************************************
+*  Name: Alexander Katrompas
+*  Assignment: Demonstration Code
+*  Purpose: A demonstration of searching, sorting.
+************************************************* */
 
 #ifndef SORTING_MAIN_H
 #define SORTING_MAIN_H
 
-#include "functions.h"  /* supporting functions */
+#include "functions.h"  /* search and sort functions */
 #include <iostream>     /* cout, endl */
 
 using std::cout;
